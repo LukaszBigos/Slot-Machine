@@ -34,7 +34,7 @@ h1 {
 }
 
 .play {
-  margin: 20px auto;
+  margin: 40px auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -63,7 +63,19 @@ input:focus {
   letter-spacing: 2px;
 }
 
+.play button:hover {
+  cursor: pointer;
+  background-color: #222;
+}
 button:active {
   color: #000;
   border: 1px solid #222;
+}
+
+.resources > span {
+  text-transform: uppercase;
+}
+
+.summary {
+  margin-top: 15px;
 }
